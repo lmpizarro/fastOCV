@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  radar_app:
+    container_name: radar_app
+    restart: always
+    build: .
+    ports:
+      - "8000:8000"
+    #command: uvicorn main:app --reload
+
