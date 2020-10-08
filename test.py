@@ -23,7 +23,7 @@ def retrieve_image_file(path):
     
 if __name__ == '__main__':
     fp = create_audio_file('test.bin', 1000)
-    fp = retrieve_image_file('/home/lmpizarro/Documents/foto_santander.JPG')
+    # fp = retrieve_image_file('/home/lmpizarro/Documents/foto_santander.JPG')
     
     url = be_url.format('uploadfile')
     response_audio = requests.post(url,
